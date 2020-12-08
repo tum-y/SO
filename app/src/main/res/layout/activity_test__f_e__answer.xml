@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestAnswer">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/next_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="ここに間違った問題を表示"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#000000"
+        android:padding="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="問"
+                android:textSize="24sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+            <TextView
+                android:id="@+id/myanswer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="解答"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="24sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer1"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+            <TextView
+                android:id="@+id/myanswer1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="不正解"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="24sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer2"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+            <TextView
+                android:id="@+id/myanswer2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="解答"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="24sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer3"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+            <TextView
+                android:id="@+id/myanswer3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="解答"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="24sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer4"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+            <TextView
+                android:id="@+id/myanswer4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="解答"
+                android:textSize="24sp" />
+        </TableRow>
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="227dp"-->
+<!--            android:layout_marginBottom="1dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/question5"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="5"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer5"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/myanswer5"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="解答"-->
+<!--                android:textSize="24sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="227dp"-->
+<!--            android:layout_marginBottom="1dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/question6"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="6"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer6"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/myanswer6"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="解答"-->
+<!--                android:textSize="24sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="227dp"-->
+<!--            android:layout_marginBottom="1dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/question7"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="7"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer7"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/myanswer7"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="解答"-->
+<!--                android:textSize="24sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="227dp"-->
+<!--            android:layout_marginBottom="1dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/question8"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="8"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer8"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/myanswer8"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="解答"-->
+<!--                android:textSize="24sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="227dp"-->
+<!--            android:layout_marginBottom="1dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/question9"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="9"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer9"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/myanswer9"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="解答"-->
+<!--                android:textSize="24sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="227dp"-->
+<!--            android:layout_marginBottom="1dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/question10"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="10"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/correct_answer10"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="選択"-->
+<!--                android:textSize="24sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/myanswer10"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                android:text="解答"-->
+<!--                android:textSize="24sp" />-->
+<!--        </TableRow>-->
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

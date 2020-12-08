@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">デバイスID取得テスト</string>
+    <string name="btn_save">保存</string>
+    <string name="player_name">ユーザー名</string>
+    <string name="registration_user">登録画面</string>
+
+    //home
+    <string name="v_book_btn">単語帳</string>
+    <string name="past_q_btn">過去問</string>
+    <string name="test_btn">test</string>
+    <string name="story_btn">ストーリー</string>
+    <string name="grade_btn">成績</string>
+    <string name="conf_btn">設定</string>
+    <string name="cal_btn">カレンダー</string>
+
+    //過去問関係
+    <string name="past_text">過去問演習</string>
+    <string name="FE_btn">FE（午前）</string>
+    <string name="SG_btn">SG</string>
+
+    //共通
+    <string name="ok_btn">決定</string>
+    <string name="back_btn">戻る</string>
+    <string name="next_btn">次へ</string>
+    <string name="answer_btn">回答</string>
+    <string name="correct_answer">正解</string>
+    <string name="incorrect_answer">不正解</string>
+
+    //テスト
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    //単語帳
+</resources>
