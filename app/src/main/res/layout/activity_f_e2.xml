@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FE">
+
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="戻る"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.988" />
+
+
+    <Button
+        android:id="@+id/fe_age"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="168dp"
+        android:text="年度選択"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fe_Season"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:text="季節選択"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fe_age" />
+
+    <Button
+        android:id="@+id/fe_issue"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:text="出題数選択"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fe_field" />
+
+    <Button
+        android:id="@+id/fe_field"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:text="分野選択"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fe_Season" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:text="出題問題絞り込み"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="決定"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="276dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:text="ニガテ問題を含む"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fe_issue" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
